@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cover Template for Bootstrap</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/cover.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand"></h3>
+        </div>
+      </header>
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading"></h1>
+        <p class="lead">
+          <a id="test" href="#" class="btn btn-lg btn-secondary">/4DACTION/TEST/</a>
+        </p>
+        <p class="lead" id="message" />
+      </main>
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+        </div>
+      </footer>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery-3.6.3.min.js"></script>
+    <script>
+        $(function() {
+            $("#test").click(function(e){
+                e.preventDefault();
+                $.post("/4DACTION/TEST/あ/あ/あ", function(data) {
+                  $("#message").html(data);
+                });
+            });
+        });
+    </script>
+  </body>
+</html>

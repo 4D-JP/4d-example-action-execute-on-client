@@ -1,0 +1,20 @@
+{
+	"Sources/DatabaseMethods/onServerStartup.4dm": {
+		"left": 565,
+		"top": 342,
+		"width": 778,
+		"height": 460
+	},
+	"Sources/Methods/TEST.4dm": {
+		"left": 565,
+		"top": 370,
+		"width": 778,
+		"height": 432
+	},
+	"Sources/Methods/API.4dm": {
+		"left": 334,
+		"top": 252,
+		"width": 778,
+		"height": 432
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"methods": {
+		"serverInfo": {
+			"timeStamp": "2023-01-11T13:00:46Z",
+			"attributes": {
+				"invisible": true,
+				"executedOnServer": true
+			}
+		},
+		"TEST": {
+			"timeStamp": "2023-01-11T12:41:27Z",
+			"attributes": {
+				"invisible": true,
+				"publishedWeb": true,
+				"preemptive": "capable"
+			}
+		},
+		"API": {
+			"timeStamp": "2023-01-11T12:41:17Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "incapable"
+			}
+		}
+	}
+}
